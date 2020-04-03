@@ -64,54 +64,32 @@ This is a three and a half hour tutorial divided into five sections, with the fi
   <tr>
    <td>45min 
    </td>
-   <td>1)
-<p>
-Intro:
-<p>
-The concept of calibration
-<p>
+   <td>1) Intro: The concept of calibration
 (Peter Flach)
    </td>
    <td>
 <ul>
-
-<li>Motivation with different types of classifier outputs
-
-<li>Optimal decision making
-
-<li>Sources of miscalibration
-
-<li>Visualisation of calibration and miscalibration
-
-<li>Simple methods to obtain calibrated probabilities (binning methods)
-
-<li>Notions of multi-class calibration: from weakest to strongest
-</li>
+<li>Motivation with different types of classifier outputs</li>
+<li>Optimal decision making</li>
+<li>Sources of miscalibration</li>
+<li>Visualisation of calibration and miscalibration</li>
+<li>Simple methods to obtain calibrated probabilities (binning methods)</li>
+<li>Notions of multi-class calibration: from weakest to strongest</li>
 </ul>
    </td>
   </tr>
   <tr>
    <td>45min 
    </td>
-   <td>2)
-<p>
-Evaluation metrics and
-<p>
-proper scoring rules
-<p>
+   <td>2) Evaluation metrics and proper scoring rules
 (Telmo Silva Filho)
    </td>
    <td>
 <ul>
-
-<li>Classification calibrated loss, Ranking calibrated loss and proper losses
-
-<li>Decompositions: calibration/refinement and others
-
-<li>Calibration measures: conf-ECE, cw-ECE, total variation distance
-
-<li>Hypothesis tests for calibration
-</li>
+<li>Classification calibrated loss, Ranking calibrated loss and proper losses</li>
+<li>Decompositions: calibration/refinement and others</li>
+<li>Calibration measures: conf-ECE, cw-ECE, total variation distance</li>
+<li>Hypothesis tests for calibration</li>
 </ul>
    </td>
   </tr>
@@ -131,11 +109,7 @@ proper scoring rules
   <tr>
    <td>60min 
    </td>
-   <td>3)
-<p>
-Calibrators
-<p>
-(Hao Song)
+   <td>3) Calibrators (Hao Song)
    </td>
    <td>
 <ul>
@@ -152,46 +126,29 @@ Calibrators
   <tr>
    <td>30min
    </td>
-   <td>4)
-<p>
-Hands-On 
-<p>
-(Miquel Perello-Nieto)
+   <td>4) Hands-On (Miquel Perello-Nieto)
    </td>
    <td>
 <ul>
-
-<li>Available packages for calibration
-
-<li>Non-neural and neural demonstrations
-
-<li>The pipeline on how to train and evaluate classifiers and calibrators
-
-<li>Visualisation tools
-</li>
+<li>Available packages for calibration</li>
+<li>Non-neural and neural demonstrations</li>
+<li>The pipeline on how to train and evaluate classifiers and calibrators</li>
+<li>Visualisation tools</li>
 </ul>
    </td>
   </tr>
   <tr>
    <td>30min
    </td>
-   <td>5)
-<p>
-Advanced topics and conclusion
-<p>
-(Peter Flach)
+   <td>5) Advanced topics and conclusion (Peter Flach)
    </td>
    <td>
 <ul>
 
-<li>Limitations and open problems
-
-<li>The cost-sensitive perspective as an alternative view of calibration
-
-<li>Regression / Distribution calibration
-
-<li>Related uncertainty concepts
-</li>
+<li>Limitations and open problems</li>
+<li>The cost-sensitive perspective as an alternative view of calibration</li>
+<li>Regression / Distribution calibration</li>
+<li>Related uncertainty concepts</li>
 </ul>
    </td>
   </tr>
