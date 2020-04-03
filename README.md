@@ -62,79 +62,138 @@ This is a three and a half hour tutorial divided into five sections, with the fi
    <td><strong>Topics covered</strong>
    </td>
   </tr>
+  <tr>
+   <td>45min 
+   </td>
+   <td>1)
+<p>
+Intro:
+<p>
+The concept of calibration
+<p>
+(Peter Flach)
+   </td>
+   <td>
+<ul>
 
-  <tr>
-   <td>45min</td>
-   <td>1) Intro: The concept of calibration (Peter Flach)</td>
-   <td>
-     <ul>
-       <li>Motivation with different types of classifier outputs</li>
-       <li>Optimal decision making</li>
-       <li>Sources of miscalibration</li>
-       <li>Visualisation of calibration and miscalibration</li>
-       <li>Simple methods to obtain calibrated probabilities (binning methods)</li>
-       <li>Notions of multi-class calibration: from weakest to strongest</li>
-     </ul>
-   </td>
-  </tr>
+<li>Motivation with different types of classifier outputs
 
-  <tr>
-   <td>45min</td>
-   <td>2) Evaluation metrics and proper scoring rules (Telmo Silva Filho)</td>
-   <td>
-     <ul>
-       <li>Classification calibrated loss, Ranking calibrated loss and proper losses</li>
-       <li>Decompositions: calibration/refinement and others</li>
-       <li>Calibration measures: conf-ECE, cw-ECE, total variation distance</li>
-       <li>Hypothesis tests for calibration</li>
-     </ul>
-   </td>
-  </tr>
+<li>Optimal decision making
 
-  <tr>
-   <td>30min</td>
-   <td>BREAK</td>
-   <td>
-     <ul>
-       <li>Hands-On material available online to download
-     </li>
-     </ul>
-   </td>
-  </tr>
-  <tr>
-   <td>60min</td>
-   <td>3) Calibrators (Hao Song)</td>
-   <td>
-     <ul>
-       <li>Non-parametric approaches</li>
-       <li>Parametric approaches</li>
-       <li>General practice</li>
-     </ul>
-   </td>
-  </tr>
+<li>Sources of miscalibration
 
-  <tr>
-   <td>30min</td>
-   <td>4) Hands-On (Miquel Perello-Nieto)</td>
-   <td>
-     <ul>
-       <li>Available packages for calibration</li>
-       <li>Non-neural and neural demonstrations</li>
-       <li>The pipeline on how to train and evaluate classifiers and calibrators</li>
-       <li>Visualisation tools</li>
-     </ul>
+<li>Visualisation of calibration and miscalibration
+
+<li>Simple methods to obtain calibrated probabilities (binning methods)
+
+<li>Notions of multi-class calibration: from weakest to strongest
+</li>
+</ul>
    </td>
   </tr>
   <tr>
-   <td>30min</td>
-   <td>5) Advanced topics and conclusion (Peter Flach)</td>
+   <td>45min 
+   </td>
+   <td>2)
+<p>
+Evaluation metrics and
+<p>
+proper scoring rules
+<p>
+(Telmo Silva Filho)
+   </td>
    <td>
-     <ul>
-       <li>Limitations and open problems</li>
-       <li>The cost-sensitive perspective as an alternative view of calibration</li>
-       <li>Regression / Distribution calibration</li>
-       <li>Related uncertainty concepts</li>
-     </ul>
+<ul>
+
+<li>Classification calibrated loss, Ranking calibrated loss and proper losses
+
+<li>Decompositions: calibration/refinement and others
+
+<li>Calibration measures: conf-ECE, cw-ECE, total variation distance
+
+<li>Hypothesis tests for calibration
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td>30min
+   </td>
+   <td>BREAK
+   </td>
+   <td>
+<ul>
+
+<li>Hands-On material available online to download
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td>60min 
+   </td>
+   <td>3)
+<p>
+Calibrators
+<p>
+(Hao Song)
+   </td>
+   <td>
+<ul>
+
+<li>Non-parametric approaches 
+
+<li>Parametric approaches
+
+<li>General practice
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td>30min
+   </td>
+   <td>4)
+<p>
+Hands-On 
+<p>
+(Miquel Perello-Nieto)
+   </td>
+   <td>
+<ul>
+
+<li>Available packages for calibration
+
+<li>Non-neural and neural demonstrations
+
+<li>The pipeline on how to train and evaluate classifiers and calibrators
+
+<li>Visualisation tools
+</li>
+</ul>
+   </td>
+  </tr>
+  <tr>
+   <td>30min
+   </td>
+   <td>5)
+<p>
+Advanced topics and conclusion
+<p>
+(Peter Flach)
+   </td>
+   <td>
+<ul>
+
+<li>Limitations and open problems
+
+<li>The cost-sensitive perspective as an alternative view of calibration
+
+<li>Regression / Distribution calibration
+
+<li>Related uncertainty concepts
+</li>
+</ul>
    </td>
   </tr>
 </table>
