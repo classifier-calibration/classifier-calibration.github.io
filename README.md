@@ -52,6 +52,7 @@ This tutorial is relevant to the ECML-PKDD community, with previous work related
 
 This is a three and a half hour tutorial divided into five sections, with the final Section devoted to a recap and discussion of open problems. We first give the planned schedule with main contents in the following table. Then we briefly describe each of the five Sections below in separate paragraphs.
 
+
 <table>
   <tr>
    <td><strong>Duration </strong>
@@ -61,95 +62,79 @@ This is a three and a half hour tutorial divided into five sections, with the fi
    <td><strong>Topics covered</strong>
    </td>
   </tr>
+
   <tr>
-   <td>45min 
-   </td>
-   <td>1) Intro: The concept of calibration
-(Peter Flach)
-   </td>
+   <td>45min</td>
+   <td>1) Intro: The concept of calibration (Peter Flach)</td>
    <td>
-<ul>
-<li>Motivation with different types of classifier outputs</li>
-<li>Optimal decision making</li>
-<li>Sources of miscalibration</li>
-<li>Visualisation of calibration and miscalibration</li>
-<li>Simple methods to obtain calibrated probabilities (binning methods)</li>
-<li>Notions of multi-class calibration: from weakest to strongest</li>
-</ul>
+     <ul>
+       <li>Motivation with different types of classifier outputs</li>
+       <li>Optimal decision making</li>
+       <li>Sources of miscalibration</li>
+       <li>Visualisation of calibration and miscalibration</li>
+       <li>Simple methods to obtain calibrated probabilities (binning methods)</li>
+       <li>Notions of multi-class calibration: from weakest to strongest</li>
+     </ul>
+   </td>
+  </tr>
+
+  <tr>
+   <td>45min</td>
+   <td>2) Evaluation metrics and proper scoring rules (Telmo Silva Filho)</td>
+   <td>
+     <ul>
+       <li>Classification calibrated loss, Ranking calibrated loss and proper losses</li>
+       <li>Decompositions: calibration/refinement and others</li>
+       <li>Calibration measures: conf-ECE, cw-ECE, total variation distance</li>
+       <li>Hypothesis tests for calibration</li>
+     </ul>
+   </td>
+  </tr>
+
+  <tr>
+   <td>30min</td>
+   <td>BREAK</td>
+   <td>
+     <ul>
+       <li>Hands-On material available online to download
+     </li>
+     </ul>
    </td>
   </tr>
   <tr>
-   <td>45min 
-   </td>
-   <td>2) Evaluation metrics and proper scoring rules
-(Telmo Silva Filho)
-   </td>
+   <td>60min</td>
+   <td>3) Calibrators (Hao Song)</td>
    <td>
-<ul>
-<li>Classification calibrated loss, Ranking calibrated loss and proper losses</li>
-<li>Decompositions: calibration/refinement and others</li>
-<li>Calibration measures: conf-ECE, cw-ECE, total variation distance</li>
-<li>Hypothesis tests for calibration</li>
-</ul>
+     <ul>
+       <li>Non-parametric approaches</li>
+       <li>Parametric approaches</li>
+       <li>General practice</li>
+     </ul>
+   </td>
+  </tr>
+
+  <tr>
+   <td>30min</td>
+   <td>4) Hands-On (Miquel Perello-Nieto)</td>
+   <td>
+     <ul>
+       <li>Available packages for calibration</li>
+       <li>Non-neural and neural demonstrations</li>
+       <li>The pipeline on how to train and evaluate classifiers and calibrators</li>
+       <li>Visualisation tools</li>
+     </ul>
    </td>
   </tr>
   <tr>
-   <td>30min
-   </td>
-   <td>BREAK
-   </td>
+   <td>30min</td>
+   <td>5) Advanced topics and conclusion (Peter Flach)</td>
    <td>
-<ul>
-
-<li>Hands-On material available online to download
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>60min 
-   </td>
-   <td>3) Calibrators (Hao Song)
-   </td>
-   <td>
-<ul>
-
-<li>Non-parametric approaches 
-
-<li>Parametric approaches
-
-<li>General practice
-</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>30min
-   </td>
-   <td>4) Hands-On (Miquel Perello-Nieto)
-   </td>
-   <td>
-<ul>
-<li>Available packages for calibration</li>
-<li>Non-neural and neural demonstrations</li>
-<li>The pipeline on how to train and evaluate classifiers and calibrators</li>
-<li>Visualisation tools</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>30min
-   </td>
-   <td>5) Advanced topics and conclusion (Peter Flach)
-   </td>
-   <td>
-<ul>
-
-<li>Limitations and open problems</li>
-<li>The cost-sensitive perspective as an alternative view of calibration</li>
-<li>Regression / Distribution calibration</li>
-<li>Related uncertainty concepts</li>
-</ul>
+     <ul>
+       <li>Limitations and open problems</li>
+       <li>The cost-sensitive perspective as an alternative view of calibration</li>
+       <li>Regression / Distribution calibration</li>
+       <li>Related uncertainty concepts</li>
+     </ul>
    </td>
   </tr>
 </table>
