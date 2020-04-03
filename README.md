@@ -53,6 +53,7 @@ This tutorial is relevant to the ECML-PKDD community, with previous work related
 This is a three and a half hour tutorial divided into five sections, with the final Section devoted to a recap and discussion of open problems. We first give the planned schedule with main contents in the following table. Then we briefly describe each of the five Sections below in separate paragraphs.
 
 
+<div>
 <table>
   <tr>
    <td><strong>Duration </strong>
@@ -197,6 +198,8 @@ Advanced topics and conclusion
    </td>
   </tr>
 </table>
+</div>
+
 
 
 The **five sections** are described in more detail in the following paragraphs. 
