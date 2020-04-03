@@ -78,15 +78,15 @@ The concept of calibration
 <ul>
 
 <li>Motivation with different types of classifier outputs
-
+</li>
 <li>Optimal decision making
-
+</li>
 <li>Sources of miscalibration
-
+</li>
 <li>Visualisation of calibration and miscalibration
-
+</li>
 <li>Simple methods to obtain calibrated probabilities (binning methods)
-
+</li>
 <li>Notions of multi-class calibration: from weakest to strongest
 </li>
 </ul>
@@ -107,11 +107,11 @@ proper scoring rules
 <ul>
 
 <li>Classification calibrated loss, Ranking calibrated loss and proper losses
-
+</li>
 <li>Decompositions: calibration/refinement and others
-
+</li>
 <li>Calibration measures: conf-ECE, cw-ECE, total variation distance
-
+</li>
 <li>Hypothesis tests for calibration
 </li>
 </ul>
@@ -143,9 +143,9 @@ Calibrators
 <ul>
 
 <li>Non-parametric approaches 
-
+</li>
 <li>Parametric approaches
-
+</li>
 <li>General practice
 </li>
 </ul>
@@ -164,11 +164,11 @@ Hands-On
 <ul>
 
 <li>Available packages for calibration
-
+</li>
 <li>Non-neural and neural demonstrations
-
+</li>
 <li>The pipeline on how to train and evaluate classifiers and calibrators
-
+</li>
 <li>Visualisation tools
 </li>
 </ul>
@@ -187,11 +187,11 @@ Advanced topics and conclusion
 <ul>
 
 <li>Limitations and open problems
-
+</li>
 <li>The cost-sensitive perspective as an alternative view of calibration
-
+</li>
 <li>Regression / Distribution calibration
-
+</li>
 <li>Related uncertainty concepts
 </li>
 </ul>
