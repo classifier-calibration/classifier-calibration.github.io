@@ -1,7 +1,4 @@
-# Classifier Calibration:
-## How to assess and improve classifier confidence and uncertainty
-
-### A tutorial at ECML-PKDD 2020 
+# A tutorial at ECML-PKDD 2020 
 
 Peter Flach,
 University of Bristol, UK,
