@@ -1,36 +1,22 @@
 ---
 ---
+// Headers
+$header-background-image: linear-gradient(120deg, #0C2D1F, #0D99B6) !default;
+$header-heading-color: #FDFBE2 !default;
+
+// Text
+$section-headings-color: #3C6D5F;
+$body-text-color: #4C6D5F !default;
+$body-link-color: #0D99B6 !default;
+$body-background-color: #FDFBE2 !default;
 
 @import "{{ site.theme }}";
 
-.page-header {
-    background-image: linear-gradient(120deg, #0C2D1F, #0D99B6);
-    /**background-image: linear-gradient(120deg, #3C6D5F, #0D99B6);**/
-    /**background-image: linear-gradient(120deg, #0C2D1F, #3C6D5F);**/
-
-}
-
-.project-name, .project-tagline {
-    color: #FDFBE2;
-}
-
 body {
-    color: #4C6D5F;
     background-color: #FDFBE2;
 }
 
-.main-content {
-    background-color: #FDFBE2;
-}
-
-.main-content h1, .main-content h2, .main-content h3,
-.main-content h4, .main-content h5, .main-content h6 {
-    color: #3C6D5F;
-}
-
+// Tables
 tr:nth-child(even) {background: #FDFBE2}
 tr:nth-child(odd) {background: #DDDBC2}
 
-a {
-    color: #0D99B6;
-}
