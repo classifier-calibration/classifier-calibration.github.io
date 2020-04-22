@@ -1,14 +1,15 @@
 ---
 ---
 // Headers
-$header-background-image: linear-gradient(120deg, #0C2D1F, #0D99B6) !default;
-$header-heading-color: #FDFBE2 !default;
+$header-heading-color: #FDFBE2;
+$header-bg-color: #0C4D1F;
+$header-bg-color-secondary: #0D99B6;
 
 // Text
 $section-headings-color: #3C6D5F;
-$body-text-color: #4C6D5F !default;
-$body-link-color: #0D99B6 !default;
-$body-background-color: #FDFBE2 !default;
+$body-text-color: #4C6D5F;
+$body-link-color: #0D99B6;
+$body-background-color: #FDFBE2;
 
 @import "{{ site.theme }}";
 
