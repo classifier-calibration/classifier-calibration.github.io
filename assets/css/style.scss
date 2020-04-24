@@ -7,7 +7,7 @@ $header-bg-color-secondary: #0D99B6;
 
 // Text
 $section-headings-color: #3C6D5F;
-$body-text-color: #4C6D5F;
+$body-text-color: #5C5D5F;
 $body-link-color: #0D99B6;
 $body-background-color: #FDFBE2;
 
@@ -18,6 +18,6 @@ body {
 }
 
 // Tables
-tr:nth-child(even) {background: #FDFBE2}
-tr:nth-child(odd) {background: #DDDBC2}
+tr:nth-child(even) {background: #FBF9E0}
+tr:nth-child(odd) {background: #EDEBD2}
 
