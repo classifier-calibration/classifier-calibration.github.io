@@ -215,12 +215,14 @@ Presenter Peter Flach has given many tutorials, courses and lectures on machine 
 - INIT/AERFAI Summer School on Machine Learning 2013 and 2017: _ROC Analysis and Performance Evaluation Metrics_: [http://www.init.uji.es/school2013/lecturers.html](http://www.init.uji.es/school2013/lecturers.html)
 - ECML-PKDD'16 tutorial: _Context-Aware Knowledge Discovery: Opportunities, Techniques and Applications_: [https://docs.google.com/presentation/d/1Q1_Wh8dcMDCH5DGuSxs_bieyIl8oDubmiYuZf8l9qu4/pub?slide=id.p](https://docs.google.com/presentation/d/1Q1_Wh8dcMDCH5DGuSxs_bieyIl8oDubmiYuZf8l9qu4/pub?slide=id.p)
 
-Audience sizes for these tutorials are not available, but taking into account the number of participants at ECML-PKDD 2019 (800 attendees) and the proportion of papers at similar conferences/proceedings mentioning calibration (around 5% at NeurIPS 2019), we estimate an audience size of 50-100 participants. 
-
 
 # Required technical equipment 
 
-Participants will be able to follow the full tutorial just by means of the presenter’s projector screen. However, most of the material will be available online and some parts (eg. the Hands-On course) will be in the form of Jupyter Notebooks in case some of the participants want to run the Notebooks by themselves, or run them online with Google Colab. For that reason, although the tutorial content can be delivered without an internet connection, it would be advisable to have sufficient bandwidth, in case participants want to follow some parts of the tutorial in a more proactive manner.
+Participants will be able to follow the full tutorial just by means of the
+presenter’s projector screen. However, most of the material will be available
+online and some parts (eg. the Hands-On course) will be in the form of Jupyter
+Notebooks in case some of the participants want to run the Notebooks by
+themselves, or run them online with Google Colab.
 
 # References
 
