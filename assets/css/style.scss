@@ -9,7 +9,7 @@ $header-bg-color-secondary: #0D99B6;
 $section-headings-color: #3C6D5F;
 $body-text-color: #5C5D5F;
 $body-link-color: #0D99B6;
-$body-background-color: #FDFBE2;
+$body-background-color: #FDFBF2;
 
 @import "{{ site.theme }}";
 
@@ -20,4 +20,10 @@ body {
 // Tables
 tr:nth-child(even) {background: #FBF9E0}
 tr:nth-child(odd) {background: #EDEBD2}
+
+.main-content {max-width: 80rem}
+
+p {text-align: justify; text-justify: auto; font-size: 16px}
+body {font-size: 16px}
+ul {font-size: 16px}
 
