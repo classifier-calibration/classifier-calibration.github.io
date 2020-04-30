@@ -9,7 +9,7 @@ $header-bg-color-secondary: #0D99B6;
 $section-headings-color: #3C6D5F;
 $body-text-color: #5C5D5F;
 $body-link-color: #0D99B6;
-$body-background-color: #FDFBF2;
+$body-background-color: #FDFBE2;
 
 @import "{{ site.theme }}";
 
@@ -26,4 +26,6 @@ tr:nth-child(odd) {background: #EDEBD2}
 p {text-align: justify; text-justify: auto; font-size: 16px}
 body {font-size: 16px}
 ul {font-size: 16px}
+
+div.references {font-size: 14px}
 

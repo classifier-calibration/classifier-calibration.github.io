@@ -226,28 +226,33 @@ Participants will be able to follow the full tutorial just by means of the prese
 
 An initial list in chronological order is given below. This includes work on forecasting and proper scoring rules [1,11]; foundational work on cost-sensitive learning and calibration [2-4,6-7]; ROC analysis and cost curves [5, 9-10]; empirical analysis [8, 12]; and recent advances [13-25]. 
 
-1. Glenn Brier. Verification of forecasts expressed in terms of probabilities. Monthly Weather Review, 78:1–3, 1950.
-2. John Platt. Probabilities for SV machines. In A. Smola, P. Bartlett, B. Scho ̈lkopf, and D. Schuurmans, editors, Advances in Large Margin Classifiers, pages 61–74. MIT Press, 2000.
-3. Charles Elkan. The foundations of cost-sensitive learning. In Proc. 17th Int. Joint Conf. on Artificial intelligence (IJCAI’01), pages 973–978. Morgan Kaufmann, 2001.
-4. Bianca Zadrozny and Charles Elkan. Obtaining calibrated probability estimates from decision trees and naive bayesian classifiers. In Proc. 18th Int. Conf. on Machine Learning (ICML’01), pages 609–616, 2001.
-5. Foster Provost and Tom Fawcett. Robust classification for imprecise environments. _Machine Learning_, 42(3):203–231, March 2001.
-6. Barbara Zadrozny and Charles Elkan. Transforming classifier scores into accurate multiclass probability estimates. In Proc. 8th Int. Conf. on Knowledge Discovery and Data Mining (KDD’02), pages 694–699. ACM, 2002.
-7. Foster Provost and Pedro Domingos. Tree induction for probability-based ranking. Machine Learning, 52(3):199–215, 2003.
-8. Alexandru Niculescu-Mizil and Rich Caruana. Predicting good probabilities with supervised learning. In Proc. 22nd Int. Conf. on Machine Learning (ICML’05), pages 625–632, 2005.
-9. Chris Drummond and Robert Holte. Cost curves: An improved method for visualizing classifier performance. Machine Learning, 65(1):95–130, 2006.
-10. Tom Fawcett and Alexandru Niculescu-Mizil. PAV and the ROC convex hull. Machine Learning, 68(1):97–106, 2007.
-11. Tilmann Gneiting and Adrian E Raftery. Strictly proper scoring rules, prediction, and estimation. Journal of the American Statistical Association, 102(477):359–378, 2007.
-12. Chris Bourke, Kun Deng, Stephen Scott, Robert Schapire, and N.V. Vinodchandran. On reoptimizing multi-class classifiers. Machine Learning, 71(2-3):219–242, 2008.
-13. José Hernández-Orallo, Peter Flach, and Cesar Ferri. Brier curves: A new cost-based visualisation of classifier performance. In Proc. 28th Int. Conf. on Machine Learning (ICML’11), pages 585–592, 2011. 
-14. José Hernández-Orallo, Peter Flach, and Cesar Ferri. A unified view of performance metrics: translating threshold choice into expected classification loss. Journal of Machine Learning Research, 13(1):2813–2869, 2012. 
-15. Ming-Jie Zhao, Narayanan Edakunni, Adam Pocock, and Gavin Brown. Beyond Fano’s inequality: bounds on the optimal F-score, BER, and cost-sensitive risk and their implications. Journal of Machine Learning Research, 14(1):1033–1090, 2013. 
-16. Meelis Kull and Peter Flach. Reliability Maps: A Tool to Enhance Probability Estimates and Improve Classification Accuracy. In: Calders T., Esposito F., Hüllermeier E., Meo R. (eds) Machine Learning and Knowledge Discovery in Databases. ECML PKDD 2014. Lecture Notes in Computer Science, vol 8725. Springer, Berlin, Heidelberg, 2014
-17. Oluwasanmi O Koyejo, Nagarajan Natarajan, Pradeep K Ravikumar, and Inderjit S Dhillon. Consistent binary classification with generalized performance metrics. In Advances in Neural Information Processing Systems (NIPS’14), pages 2744–2752, 2014. 
-18. Meelis Kull and Peter Flach. Novel decompositions of proper scoring rules for classification: Score adjustment as precursor to calibration. In Machine Learning and Knowledge Discovery in Databases (ECML-PKDD’15), pages 68–85. Springer, 2015. 
-19. Peter Flach and Meelis Kull. Precision-recall-gain curves: PR analysis done right. In Advances in Neural Information Processing Systems (NIPS’15), pages 838–846, 2015. 
-20. Mahdi Pakdaman Naeini, Gregory Cooper, and Milos Hauskrecht. Obtaining well calibrated probabilities using bayesian binning. In AAAI Conference on Artificial Intelligence, 2015.
-21. Mahdi Pakdaman Naeini and Gregory Cooper. Binary classifier calibration using an ensemble of near isotonic regression models. In 2016 IEEE 16th International Conference on Data Mining (ICDM), pages 360–369. IEEE, 2016.
-22. Meelis Kull, Telmo M. Silva Filho, and Peter Flach.  Beyond sigmoids:  How to obtain well-calibrated probabilities from binary classifiers with beta calibration.Electron. J. Statist., 11(2):5052–5080,2017.
-23. Chuan Guo, Geoff Pleiss, Yu Sun, and Kilian Q. Weinberger. On Calibration of Modern Neural Networks.InThirty-fourth International Conference on Machine Learning, Sydney, Australia, jun 2017.
-24. Juozas Vaicenavicius, David Widmann, Carl Andersson, Fredrik Lindsten, Jacob Roll, and Thomas Schön.  Evaluating model calibration in classification. In K. Chaudhuri and M. Sugiyama, editors, Proceedings of Machine Learning Research, volume 89 of Proceedings of Machine Learning Research, pages 3459–3467. PMLR, 16–18 Apr 2019.
-25. Kull, M., Perello Nieto, M., Kängsepp, M., Silva Filho, T., Song, H. & Flach, P. Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration, 3 Sep 2019, NeurIPS 2019.
+<div class="references">
+<ol>
+<li> Glenn Brier. Verification of forecasts expressed in terms of probabilities. Monthly Weather Review, 78:1–3, 1950.
+</li><li> John Platt. Probabilities for SV machines. In A. Smola, P. Bartlett, B. Scho ̈lkopf, and D. Schuurmans, editors, Advances in Large Margin Classifiers, pages 61–74. MIT Press, 2000.
+</li><li> Charles Elkan. The foundations of cost-sensitive learning. In Proc. 17th Int. Joint Conf. on Artificial intelligence (IJCAI’01), pages 973–978. Morgan Kaufmann, 2001.
+</li><li> Bianca Zadrozny and Charles Elkan. Obtaining calibrated probability estimates from decision trees and naive bayesian classifiers. In Proc. 18th Int. Conf. on Machine Learning (ICML’01), pages 609–616, 2001.
+</li><li> Foster Provost and Tom Fawcett. Robust classification for imprecise environments. _Machine Learning_, 42(3):203–231, March 2001.
+</li><li> Barbara Zadrozny and Charles Elkan. Transforming classifier scores into accurate multiclass probability estimates. In Proc. 8th Int. Conf. on Knowledge Discovery and Data Mining (KDD’02), pages 694–699. ACM, 2002.
+</li><li> Foster Provost and Pedro Domingos. Tree induction for probability-based ranking. Machine Learning, 52(3):199–215, 2003.
+</li><li> Alexandru Niculescu-Mizil and Rich Caruana. Predicting good probabilities with supervised learning. In Proc. 22nd Int. Conf. on Machine Learning (ICML’05), pages 625–632, 2005.
+</li><li> Chris Drummond and Robert Holte. Cost curves: An improved method for visualizing classifier performance. Machine Learning, 65(1):95–130, 2006.
+</li><li> Tom Fawcett and Alexandru Niculescu-Mizil. PAV and the ROC convex hull. Machine Learning, 68(1):97–106, 2007.
+</li><li> Tilmann Gneiting and Adrian E Raftery. Strictly proper scoring rules, prediction, and estimation. Journal of the American Statistical Association, 102(477):359–378, 2007.
+</li><li> Chris Bourke, Kun Deng, Stephen Scott, Robert Schapire, and N.V. Vinodchandran. On reoptimizing multi-class classifiers. Machine Learning, 71(2-3):219–242, 2008.
+</li><li> José Hernández-Orallo, Peter Flach, and Cesar Ferri. Brier curves: A new cost-based visualisation of classifier performance. In Proc. 28th Int. Conf. on Machine Learning (ICML’11), pages 585–592, 2011. 
+</li><li> José Hernández-Orallo, Peter Flach, and Cesar Ferri. A unified view of performance metrics: translating threshold choice into expected classification loss. Journal of Machine Learning Research, 13(1):2813–2869, 2012. 
+</li><li> Ming-Jie Zhao, Narayanan Edakunni, Adam Pocock, and Gavin Brown. Beyond Fano’s inequality: bounds on the optimal F-score, BER, and cost-sensitive risk and their implications. Journal of Machine Learning Research, 14(1):1033–1090, 2013. 
+</li><li> Meelis Kull and Peter Flach. Reliability Maps: A Tool to Enhance Probability Estimates and Improve Classification Accuracy. In: Calders T., Esposito F., Hüllermeier E., Meo R. (eds) Machine Learning and Knowledge Discovery in Databases. ECML PKDD 2014. Lecture Notes in Computer Science, vol 8725. Springer, Berlin, Heidelberg, 2014
+</li><li> Oluwasanmi O Koyejo, Nagarajan Natarajan, Pradeep K Ravikumar, and Inderjit S Dhillon. Consistent binary classification with generalized performance metrics. In Advances in Neural Information Processing Systems (NIPS’14), pages 2744–2752, 2014. 
+</li><li> Meelis Kull and Peter Flach. Novel decompositions of proper scoring rules for classification: Score adjustment as precursor to calibration. In Machine Learning and Knowledge Discovery in Databases (ECML-PKDD’15), pages 68–85. Springer, 2015. 
+</li><li> Peter Flach and Meelis Kull. Precision-recall-gain curves: PR analysis done right. In Advances in Neural Information Processing Systems (NIPS’15), pages 838–846, 2015. 
+</li><li> Mahdi Pakdaman Naeini, Gregory Cooper, and Milos Hauskrecht. Obtaining well calibrated probabilities using bayesian binning. In AAAI Conference on Artificial Intelligence, 2015.
+</li><li> Mahdi Pakdaman Naeini and Gregory Cooper. Binary classifier calibration using an ensemble of near isotonic regression models. In 2016 IEEE 16th International Conference on Data Mining (ICDM), pages 360–369. IEEE, 2016.
+</li><li> Meelis Kull, Telmo M. Silva Filho, and Peter Flach.  Beyond sigmoids:  How to obtain well-calibrated probabilities from binary classifiers with beta calibration.Electron. J. Statist., 11(2):5052–5080,2017.
+</li><li> Chuan Guo, Geoff Pleiss, Yu Sun, and Kilian Q. Weinberger. On Calibration of Modern Neural Networks.InThirty-fourth International Conference on Machine Learning, Sydney, Australia, jun 2017.
+</li><li> Juozas Vaicenavicius, David Widmann, Carl Andersson, Fredrik Lindsten, Jacob Roll, and Thomas Schön.  Evaluating model calibration in classification. In K. Chaudhuri and M. Sugiyama, editors, Proceedings of Machine Learning Research, volume 89 of Proceedings of Machine Learning Research, pages 3459–3467. PMLR, 16–18 Apr 2019.
+</li><li> Kull, M., Perello Nieto, M., Kängsepp, M., Silva Filho, T., Song, H. & Flach, P. Beyond temperature scaling: Obtaining well-calibrated multiclass probabilities with Dirichlet calibration, 3 Sep 2019, NeurIPS 2019.
+</li>
+</ol>
+</div>
