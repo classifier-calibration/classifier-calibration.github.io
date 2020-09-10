@@ -22,6 +22,9 @@ Telmo Silva Filho,
 Federal University of Paraiba, Brazil,
 [telmo@de.ufpb.br](mailto:telmo@de.ufpb.br)
 
+# Zoom link
+
+https://zoom.us/j/93706867902
 
 # Abstract 
 
@@ -99,11 +102,11 @@ This is a three and a half hour tutorial divided into five sections, with the fi
    <td><p>2) Evaluation metrics and proper scoring rules</p> </td>
    <td>
    <ul>
-   <li>Classification calibrated loss, Ranking calibrated loss and proper losses
+   <li>Proper losses
    </li>
    <li>Decompositions: calibration/refinement and others
    </li>
-   <li>Calibration measures: conf-ECE, cw-ECE, total variation distance
+   <li>Calibration measures: conf-ECE, cw-ECE, binary-ECE
    </li>
    <li>Hypothesis tests for calibration
    </li>
@@ -112,7 +115,7 @@ This is a three and a half hour tutorial divided into five sections, with the fi
    <td><p>Telmo<br/>Silva-Filho</p></td>
   </tr>
   <tr>
-   <td>30min
+   <td>20min
    </td>
    <td>BREAK
    </td>
@@ -135,7 +138,7 @@ This is a three and a half hour tutorial divided into five sections, with the fi
    <td><p>Hao Song</p></td>
   </tr>
   <tr>
-   <td>30min
+   <td>40min
    </td>
    <td><p>4) Hands-On</p></td>
    <td>
