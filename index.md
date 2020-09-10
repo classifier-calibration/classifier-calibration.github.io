@@ -24,7 +24,7 @@ Federal University of Paraiba, Brazil,
 
 # Zoom link
 
-https://zoom.us/j/93706867902
+[https://zoom.us/j/93706867902](https://zoom.us/j/93706867902)
 
 # Abstract 
 
