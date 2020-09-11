@@ -1,4 +1,5 @@
-# A tutorial at ECML-PKDD 2020 
+# A tutorial at [ECML-PKDD 2020](https://ecmlpkdd2020.net/)
+## Monday 14 September, from 14:00 to 18:00 CEST (UTC+2)
 
 Peter Flach,
 University of Bristol, UK,
