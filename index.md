@@ -1,4 +1,5 @@
-# A tutorial at ECML-PKDD 2020 
+# A tutorial at [ECML-PKDD 2020](https://ecmlpkdd2020.net/)
+## Monday 14 September, from 14:00 to 18:00 CEST (UTC+2)
 
 Peter Flach,
 University of Bristol, UK,
@@ -22,6 +23,9 @@ Telmo Silva Filho,
 Federal University of Paraiba, Brazil,
 [telmo@de.ufpb.br](mailto:telmo@de.ufpb.br)
 
+# Zoom link
+
+[https://zoom.us/j/93706867902](https://zoom.us/j/93706867902)
 
 # Abstract 
 
@@ -99,11 +103,11 @@ This is a three and a half hour tutorial divided into five sections, with the fi
    <td><p>2) Evaluation metrics and proper scoring rules</p> </td>
    <td>
    <ul>
-   <li>Classification calibrated loss, Ranking calibrated loss and proper losses
+   <li>Proper losses
    </li>
    <li>Decompositions: calibration/refinement and others
    </li>
-   <li>Calibration measures: conf-ECE, cw-ECE, total variation distance
+   <li>Calibration measures: conf-ECE, cw-ECE, binary-ECE
    </li>
    <li>Hypothesis tests for calibration
    </li>
@@ -112,7 +116,7 @@ This is a three and a half hour tutorial divided into five sections, with the fi
    <td><p>Telmo<br/>Silva-Filho</p></td>
   </tr>
   <tr>
-   <td>30min
+   <td>20min
    </td>
    <td>BREAK
    </td>
@@ -135,14 +139,14 @@ This is a three and a half hour tutorial divided into five sections, with the fi
    <td><p>Hao Song</p></td>
   </tr>
   <tr>
-   <td>30min
+   <td>40min
    </td>
    <td><p>4) Hands-On</p></td>
    <td>
    <ul>
    <li>Available packages for calibration
    </li>
-   <li>Non-neural and neural demonstrations
+   <li>Visualisation and evaluation tools
    </li>
    <li>The pipeline on how to train and evaluate classifiers and calibrators
    </li>
@@ -186,13 +190,14 @@ as well as a link to the slides.
 
 **3) Calibrators** [(slides)](slides:3): This section introduces both well-known and recently developed state-of-the-art techniques to improve the level of calibration, as well as practical details when applying them. The techniques are organised into two categories: (1) **non-parametric** approaches that can particularly benefit from large training sets; and (2) **parametric** approaches that are relatively fast to learn and apply, and show good performance. Established calibration methods include logistic calibration and the ROC convex hull method (also known as pair-adjacent-violators or isotonic regression), while recently introduced calibration methods include beta calibration, which is designed for probabilistic binary classifiers; Dirichlet calibration, the natural extension of beta calibration to the multi-class scenario; and temperature scaling, vector scaling and matrix scaling, which were particularly designed for deep neural networks. We conclude this section by giving **general advice** about the application of different calibration methods, including regularisation techniques.
 
-**4) Hands-On course** [(slides)](slides:4): This section consists of a Hands-On Course in which we cover existing **Python packages** and implementations of calibration techniques, while providing a series of Jupyter Notebooks available to be followed or run by the participants. The material will be made available beforehand and announced during the break for download or to be run online with Google Colab. The content will focus on a **full pipeline** on how to train and evaluate classifiers and calibrators for **neural and non-neural** models, the process to produce **statistical comparison** of calibration methods on several datasets, and also covers **visualisation tools** which will provide better insights into the strengths and weaknesses of uncalibrated classifiers and their calibrated counterparts (eg. reliability diagrams in a multi-class scenario).
+**4) Hands-On course** [(Notebooks)](slides:4): This section consists of a Hands-On Course in which we cover existing **Python packages** and implementations of calibration techniques, while providing a series of Jupyter Notebooks available to be followed or run by the participants. The material will be made available in [this GitHub repository](https://github.com/classifier-calibration/hands_on) beforehand and announced during the break for download or to be run online with [Binder](https://mybinder.org/). The content will focus on a **full pipeline** on how to train and evaluate classifiers and calibrators for **neural and non-neural** models, the process to produce **statistical comparison** of calibration methods on several datasets, and also covers **visualisation tools** which will provide better insights into the strengths and weaknesses of uncalibrated classifiers and their calibrated counterparts (eg. reliability diagrams in a multi-class scenario).
 
 **5) Advanced topics** [(slides)](slides:5): To conclude the tutorial, we will discuss **open problems** on calibration, and recent methods that may lead to innovative solutions. This will include the **cost-sensitive perspective** as an alternative view of calibration, with different scoring rules giving rise to different cost-based assumptions. We will also briefly discuss **calibration for regression** tasks and other related tasks in **uncertainty quantification**, such as out of distribution (OOD) samples and error decomposition into epistemic and aleatoric losses.
 
 [slides:1]: assets/slides/clacal_tutorial_ecmlpkdd_2020_calibrators.pdf
 [slides:2]: assets/slides/clacal_tutorial_ecmlpkdd_2020_conclusion.pdf
 [slides:3]: assets/slides/clacal_tutorial_ecmlpkdd_2020_evaluation.pdf
+[slides:4]: https://github.com/classifier-calibration/hands_on
 [slides:5]: assets/slides/clacal_tutorial_ecmlpkdd_2020_intro.pdf
 
 # Presenters 
