@@ -194,11 +194,11 @@ as well as a link to the slides.
 
 **5) Advanced topics** [(slides)][slides:5]: To conclude the tutorial, we will discuss **open problems** on calibration, and recent methods that may lead to innovative solutions. This will include the **cost-sensitive perspective** as an alternative view of calibration, with different scoring rules giving rise to different cost-based assumptions. We will also briefly discuss **calibration for regression** tasks and other related tasks in **uncertainty quantification**, such as out of distribution (OOD) samples and error decomposition into epistemic and aleatoric losses.
 
-[slides:1]: ./assets/slides/clacal_tutorial_ecmlpkdd_2020_calibrators.pdf
-[slides:2]: ./assets/slides/clacal_tutorial_ecmlpkdd_2020_conclusion.pdf
-[slides:3]: ./assets/slides/clacal_tutorial_ecmlpkdd_2020_evaluation.pdf
+[slides:1]: ./assets/slides/clacal_tutorial_ecmlpkdd_2020_intro.pdf
+[slides:2]: ./assets/slides/clacal_tutorial_ecmlpkdd_2020_evaluation.pdf
+[slides:3]: ./assets/slides/clacal_tutorial_ecmlpkdd_2020_calibrators.pdf
 [slides:4]: https://github.com/classifier-calibration/hands_on
-[slides:5]: ./assets/slides/clacal_tutorial_ecmlpkdd_2020_intro.pdf
+[slides:5]: ./assets/slides/clacal_tutorial_ecmlpkdd_2020_conclusion.pdf
 
 # Presenters 
 
