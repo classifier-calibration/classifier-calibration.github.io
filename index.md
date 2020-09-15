@@ -23,9 +23,10 @@ Telmo Silva Filho,
 Federal University of Paraiba, Brazil,
 [telmo@de.ufpb.br](mailto:telmo@de.ufpb.br)
 
-# Zoom link
+# Tutorial recording
 
-[https://zoom.us/j/93706867902](https://zoom.us/j/93706867902)
+The unedited recording of the tutorial can be found in the following link ([Recording](https://zoom.us/rec/play/PoDCdrHVaS7cZ5Fbus9n-X4P50LneH1FJoXeUubPhHJv_CLTRNuyjtxXkrzUgsuzJqVhYM59P8ajxFOq.n4_yT3oF9Gx2nUOI?continueMode=true)), 
+which will be replaced with a slightly edited version soon.
 
 # Abstract 
 
