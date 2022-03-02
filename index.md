@@ -25,8 +25,7 @@ Federal University of Paraiba, Brazil,
 
 # Tutorial recording
 
-The unedited recording of the tutorial can be found in the following link ([Recording](https://zoom.us/rec/play/PoDCdrHVaS7cZ5Fbus9n-X4P50LneH1FJoXeUubPhHJv_CLTRNuyjtxXkrzUgsuzJqVhYM59P8ajxFOq.n4_yT3oF9Gx2nUOI?continueMode=true)), 
-which will be replaced with a slightly edited version soon.
+The recording of the tutorial can be found in the following link ([Recording](https://www.youtube.com/watch?v=4kwEMHZJx5A&list=PLgdhPOmeUNm2DSw0sQ14kYxXIqSoOCzWI))
 
 # Abstract 
 
