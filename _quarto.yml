@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Classifier Calibration"
+  sidebar:
+    style: "docked"
+    search: true
+    logo: "./assets/images/clacal.png"
+    collapse-level: 2
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: ecml-pkdd-2020-tutorial/index.qmd
+        text: ECML-PKDD 2020 Tutorial
+      - href: survey/index.qmd
+        text: ML survey
+      - href: videos/index.qmd
+        text: Videos
+
+format:
+  html:
+    theme: journal
+    css: styles.css
+    toc: true

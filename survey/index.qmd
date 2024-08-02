@@ -1,0 +1,111 @@
+---
+title: Classifier Calibration
+subtitle: A survey on how to assess and improve predicted class probabilities
+author: 
+  - name: Telmo Silva Filho
+    email: telmo@de.ufpb.br
+    affiliations:
+      - name: Federal University of Paraiba
+        city: Paraiba
+        country: Brazil
+  - name:
+      given: Hao
+      family: Song
+    email: hao.song@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+  - name:
+      given: Miquel
+      family: Perello Nieto
+    url: https://perellonieto.com
+    orcid: 0000-0001-8925-424X
+    email: miquel.perellonieto@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+  - name:
+      given: Raul
+      family: Santos Rodriguez
+    email: enrsr@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+  - name:
+      given: Meelis
+      family: Kull
+    email: meelis.kull@ut.ee
+    affiliations:
+      - name: University of Tartu
+        city: Tartu
+        country: Estonia
+  - name:
+      given: Peter
+      family: Flach
+    url: https://www.cs.bris.ac.uk/~flach/
+    orcid: 0000-0001-6857-5810
+    email: peter.flach@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+    attributes:
+        equal-contributor: False
+---
+
+## Abstract
+
+This paper provides both an introduction to and a detailed overview of the
+principles and practice of classifier calibration. A well-calibrated classifier
+correctly quantifies the level of uncertainty or confidence associated with its
+instance-wise predictions. This is essential for critical applications, optimal
+decision making, cost-sensitive classification, and for some types of context
+change. Calibration research has a rich history which predates the birth of
+machine learning as an academic field by decades. However, a recent increase in
+the interest on calibration has led to new methods and the extension from
+binary to the multiclass setting. The space of options and issues to consider
+is large, and navigating it requires the right set of concepts and tools. We
+provide both introductory material and up-to-date technical details of the main
+concepts and methods, including proper scoring rules and other evaluation
+metrics, visualisation approaches, a comprehensive account of post-hoc
+calibration methods for binary and multiclass classification, and several
+advanced topics.
+
+## Tools
+
+We are developing a Python library with tools to evaluate the calibration of
+models. PyCalib has its own [documentation
+page](https://classifier-calibration.github.io/PyCalib/), and can be installed from the
+[Python Package Index Pypi](https://pypi.org/project/pycalib/) `pip install pycalib`.
+
+## Citation
+
+This work has been published in the [Machine Learning
+journal](https://link.springer.com/article/10.1007/s10994-023-06336-7). You
+may want to use the following citation if you want to reference this work.
+
+```
+@Article{SilvaFilho2023,
+author={Silva Filho, Telmo
+and Song, Hao
+and Perello-Nieto, Miquel
+and Santos-Rodriguez, Raul
+and Kull, Meelis
+and Flach, Peter},
+title={Classifier calibration: a survey on how to assess and improve predicted class probabilities},
+journal={Machine Learning},
+year={2023},
+month={May},
+day={16},
+issn={1573-0565},
+doi={10.1007/s10994-023-06336-7},
+url={https://doi.org/10.1007/s10994-023-06336-7}
+}
+```

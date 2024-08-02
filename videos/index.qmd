@@ -1,0 +1,25 @@
+---
+title: Videos
+---
+
+# Tutorial at ECML-PKDD 2020
+
+## Part 1: Calibration: What and Why
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4kwEMHZJx5A?si=MpskDGVsB6QE4qb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Part 2: Evaluation metrics and proper scoring rules
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wO6waBBoT6k?si=AGoX5zpMoBBp8izQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Part 3: Calibrators
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4wrWLA7dIB0?si=Wc4EnivgOHjszEhP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Part 4: Hands On
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/923o2x1cwYI?si=rQZ1Ll4szLdC52xP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Part 5: Advanced topics and conclusion
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xbMZHfToN7E?si=PrlyeEIBt479dLwD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -1,28 +1,58 @@
-# Classifier Calibration
-## A tutorial at [ECML-PKDD 2020](https://ecmlpkdd2020.net/)
-## Monday 14 September, from 14:00 to 18:00 CEST (UTC+2)
+---
+title: Classifier Calibration
+subtitle: How to assess and improve classifier confidence and uncertainty
+author: 
+  - name:
+      given: Peter
+      family: Flach
+    url: https://www.cs.bris.ac.uk/~flach/
+    orcid: 0000-0001-6857-5810
+    email: peter.flach@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+  - name:
+      given: Miquel
+      family: Perello Nieto
+    url: https://perellonieto.com
+    orcid: 0000-0001-8925-424X
+    email: miquel.perellonieto@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+  - name:
+      given: Hao
+      family: Song
+    email: hao.song@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+  - name:
+      given: Meelis
+      family: Kull
+    email: meelis.kull@ut.ee
+    affiliations:
+      - name: University of Tartu
+        city: Tartu
+        country: Estonia
+  - name: Telmo Silva Filho
+    email: telmo@de.ufpb.br
+    affiliations:
+      - name: Federal University of Paraiba
+        city: Paraiba
+        country: Brazil
+    attributes:
+        equal-contributor: False
+---
 
-Peter Flach,
-University of Bristol, UK,
-[Peter.Flach@bristol.ac.uk ](mailto:Peter.Flach@bristol.ac.uk),
-[www.cs.bris.ac.uk/~flach/ ](www.cs.bris.ac.uk/~flach/)
-
-Miquel Perello-Nieto,
-University of Bristol, UK,
-[miquel.perellonieto@bristol.ac.uk](mailto:miquel.perellonieto@bristol.ac.uk),
-[https://www.perellonieto.com/](https://www.perellonieto.com/)
-
-Hao Song,
-University of Bristol, UK,
-[hao.song@bristol.ac.uk](mailto:hao.song@bristol.ac.uk)
-
-Meelis Kull,
-University of Tartu, Estonia,
-[meelis.kull@ut.ee](mailto:meelis.kull@ut.ee)
-
-Telmo Silva Filho,
-Federal University of Paraiba, Brazil,
-[telmo@de.ufpb.br](mailto:telmo@de.ufpb.br)
+This is the announcement and material for the [ECML-PKDD 2020](https://ecmlpkdd2020.net/) tutorial on
+Classifier Calibration organised on Monday 14 September, from 14:00 to 18:00 CEST (UTC+2)
 
 # Tutorial recording
 
@@ -54,131 +84,38 @@ This tutorial is relevant to the ECML-PKDD community, with previous work related
 
 This is a three and a half hour tutorial divided into five sections, with the final Section devoted to a recap and discussion of open problems. We first give the planned schedule with main contents in the following table. Then we briefly describe each of the five Sections below in separate paragraphs.
 
-{::nomarkdown}
-<div>
-<table>
-<colgroup>
-  <col span="1" style="width: 5rem">
-  <col span="1" style="width: 30rem">
-  <col span="1" style="width: 60rem">
-  <col span="1" style="width: 10rem">
-</colgroup>
-<tbody>
-  <tr>
-   <td>
-   </td>
-   <td><strong>Section</strong>
-   </td>
-   <td><strong>Topics covered</strong>
-   </td>
-   </td>
-   <td><strong>Presenter</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><p>45min</p>
-   </td>
-   <td><p>1) The concept of calibration</p>
-   </td>
-   <td>
-   <ul>
-   <li>Motivation with different types of classifier outputs
-   </li>
-   <li>Optimal decision making
-   </li>
-   <li>Sources of miscalibration
-   </li>
-   <li>Visualisation of calibration and miscalibration
-   </li>
-   <li>Simple methods to obtain calibrated probabilities (binning methods)
-   </li>
-   <li>Notions of multi-class calibration: from weakest to strongest
-   </li>
-   </ul>
-   </td>
-   <td><p>Peter Flach</p></td>
-  </tr>
-  <tr>
-   <td>45min 
-   </td>
-   <td><p>2) Evaluation metrics and proper scoring rules</p> </td>
-   <td>
-   <ul>
-   <li>Proper losses
-   </li>
-   <li>Decompositions: calibration/refinement and others
-   </li>
-   <li>Calibration measures: conf-ECE, cw-ECE, binary-ECE
-   </li>
-   <li>Hypothesis tests for calibration
-   </li>
-   </ul>
-   </td>
-   <td><p>Telmo<br/>Silva-Filho</p></td>
-  </tr>
-  <tr>
-   <td>20min
-   </td>
-   <td>BREAK
-   </td>
-   <td><ul><li>Hands-On material available online to download</ul></li></td>
-   <td></td>
-  </tr>
-  <tr>
-   <td>60min 
-   </td>
-   <td><p>3) Calibrators</p> <td>
-   <ul>
-   <li>Non-parametric approaches 
-   </li>
-   <li>Parametric approaches
-   </li>
-   <li>General practice
-   </li>
-   </ul>
-   </td>
-   <td><p>Hao Song</p></td>
-  </tr>
-  <tr>
-   <td>40min
-   </td>
-   <td><p>4) Hands-On</p></td>
-   <td>
-   <ul>
-   <li>Available packages for calibration
-   </li>
-   <li>Visualisation and evaluation tools
-   </li>
-   <li>The pipeline on how to train and evaluate classifiers and calibrators
-   </li>
-   <li>Visualisation tools
-   </li>
-   </ul>
-   </td>
-   <td><p>Miquel<br/>Perello-Nieto</p></td>
-  </tr>
-  <tr>
-   <td>30min
-   </td>
-   <td><p>5) Advanced topics and conclusion<p></td>
-   <td>
-   <ul>
-   <li>Limitations and open problems
-   </li>
-   <li>The cost-sensitive perspective as an alternative view of calibration
-   </li>
-   <li>Regression / Distribution calibration
-   </li>
-   <li>Related uncertainty concepts
-   </li>
-   </ul>
-   </td>
-   <td><p>Peter Flach<p></td>
-  </tr>
-</tbody>
-</table>
-</div>
-{:/}
++-----+------------------------------+-----------------------------------------------------------------------+-------------+
+|     | Section                      | Topics covered                                                        | Presenter   |
++=====+==============================+=======================================================================+=============+
+|45min|1) The concept of calibration | - Motivation with different types of classifier outputs               | Peter Flach |
+|     |                              | - Optimal decision making                                             |             |
+|     |                              | - Sources of miscalibration                                           |             |
+|     |                              | - Visualisation of calibration and miscalibration                     |             |
+|     |                              | - Simple methods to obtain calibrated probabilities (binning methods) |             |
+|     |                              | - Notions of multi-class calibration: from weakest to strongest       |             |
++-----+------------------------------+-----------------------------------------------------------------------+-------------+
+|45min|2) Evaluation metrics and     | - Proper losses                                                       | Telmo       |
+|     |   proper scoring rules       | - Decompositions: calibration/refinement and others                   | Silva-Filho |
+|     |                              | - Calibration measures: conf-ECE, cw-ECE, binary-ECE                  |             |
+|     |                              | - Hypothesis tests for calibration                                    |             |
++-----+------------------------------+-----------------------------------------------------------------------+-------------+
+|20min| BREAK                        | - Hands-On material available online to download                      |             |
++-----+------------------------------+-----------------------------------------------------------------------+-------------+
+|60min| 3) Calibrators               | - Non-parametric approaches                                           | Hao Song    |
+|     |                              | - Parametric approaches                                               |             | 
+|     |                              | - General practice                                                    |             |   
++-----+------------------------------+-----------------------------------------------------------------------+-------------+
+|40min| 4) Hands-On                  | - Available packages for calibration                                  | Miquel      |    
+|     |                              | - Visualisation and evaluation tools                                  | Perello     |
+|     |                              | - The pipeline on how to train and evaluate                           | Nieto       |
+|     |                              |   classifiers and calibrators                                         |             |
+|     |                              | - Visualisation tools                                                 |             |
++-----+------------------------------+-----------------------------------------------------------------------+-------------+
+|30min| 5) Advanced topics           | - Limitations and open problems                                       | Peter Flach |
+|     |    and conclusion            | - The cost-sensitive perspective as an alternative view of calibration|             |
+|     |                              | - Regression / Distribution calibration                               |             |
+|     |                              | - Related uncertainty concepts                                        |             |
++-----+------------------------------+-----------------------------------------------------------------------+-------------+
 
 # Slides
 
