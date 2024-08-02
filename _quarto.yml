@@ -17,6 +17,11 @@ website:
         text: ML survey
       - href: videos/index.qmd
         text: Videos
+  page-footer:
+    left: |
+      Classifier Calibration by Miquel Perello Nieto and Peter Flach.
+    right: |
+      This website was built with <a href="https://quarto.org/">Quarto</a>.
 
 format:
   html:
