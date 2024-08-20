@@ -91,7 +91,7 @@ This work has been published in the [Machine Learning
 journal](https://link.springer.com/article/10.1007/s10994-023-06336-7). You
 may want to use the following citation if you want to reference this work.
 
-```
+```bibtex
 @Article{SilvaFilho2023,
 author={Silva Filho, Telmo
 and Song, Hao

@@ -1,0 +1,64 @@
+---
+title: Python Library PyCalib
+author: 
+  - name:
+      given: Miquel
+      family: Perello Nieto
+    url: https://perellonieto.com
+    orcid: 0000-0001-8925-424X
+    email: miquel.perellonieto@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+  - name: Telmo Silva Filho
+    email: telmo@de.ufpb.br
+    affiliations:
+      - name: Federal University of Paraiba
+        city: Paraiba
+        country: Brazil
+  - name:
+      given: Hao
+      family: Song
+    email: hao.song@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+---
+
+We have developed a Python library that offers multiple tools to assess
+probabilistic classifiers in terms of calibration, and provides useful function
+to calibrate models that follow the Scikit-learn BaseEstimator standar.
+
+The documentation for the library can be found at
+[classifier-calibration.github.io/PyCalib/](https://classifier-calibration.github.io/PyCalib/) and the library can be
+installed from the [PyPi package
+repository](https://pypi.org/project/pycalib/).
+
+# Citation
+
+If you use the library for a research publication you may want to cite the
+publication below, which provides a survey of classifier calibration and
+mentions this Python library.
+
+```bibtex
+@Article{SilvaFilho2023,
+author={Silva Filho, Telmo
+and Song, Hao
+and Perello-Nieto, Miquel
+and Santos-Rodriguez, Raul
+and Kull, Meelis
+and Flach, Peter},
+title={Classifier calibration: a survey on how to assess and improve predicted class probabilities},
+journal={Machine Learning},
+year={2023},
+month={May},
+day={16},
+issn={1573-0565},
+doi={10.1007/s10994-023-06336-7},
+url={https://doi.org/10.1007/s10994-023-06336-7}
+}
+```
