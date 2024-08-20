@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://classifier-calibration.github.io/index.html</loc>
-    <lastmod>2024-08-02T09:04:58.964Z</lastmod>
+    <loc>https://classifier-calibration.github.io/survey/index.html</loc>
+    <lastmod>2024-08-20T15:35:37.137Z</lastmod>
   </url>
   <url>
     <loc>https://classifier-calibration.github.io/videos/index.html</loc>
-    <lastmod>2024-08-02T09:04:58.964Z</lastmod>
+    <lastmod>2024-08-20T15:35:37.137Z</lastmod>
+  </url>
+  <url>
+    <loc>https://classifier-calibration.github.io/pycalib/index.html</loc>
+    <lastmod>2024-08-20T15:35:37.137Z</lastmod>
+  </url>
+  <url>
+    <loc>https://classifier-calibration.github.io/about.html</loc>
+    <lastmod>2024-08-20T15:35:37.089Z</lastmod>
   </url>
   <url>
     <loc>https://classifier-calibration.github.io/ecml-pkdd-2020-tutorial/index.html</loc>
-    <lastmod>2024-08-02T09:04:58.964Z</lastmod>
+    <lastmod>2024-08-20T15:35:37.137Z</lastmod>
   </url>
   <url>
-    <loc>https://classifier-calibration.github.io/survey/index.html</loc>
-    <lastmod>2024-08-02T09:04:58.964Z</lastmod>
+    <loc>https://classifier-calibration.github.io/index.html</loc>
+    <lastmod>2024-08-20T15:35:37.137Z</lastmod>
   </url>
 </urlset>
